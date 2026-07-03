@@ -1,0 +1,13 @@
+file_format: "1"
+id: datum
+name: Datum
+type: shield
+url: https://github.com/kdyorn/zmk-config
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - datum_left
+  - datum_right
+  - datum_dongle

@@ -1,0 +1,18 @@
+---
+include:
+  - board: nice_nano//zmk
+    shield: dissect_left
+  - board: nice_nano//zmk
+    shield: dissect_right
+  - board: xiao_ble//zmk
+    shield: dissect_dongle prospector_adapter
+  - board: nice_nano//zmk
+    shield: settings_reset
+  - board: xiao_ble//zmk
+    shield: settings_reset
+  - board: nice_nano//zmk
+    shield: datum_left
+  - board: nice_nano//zmk
+    shield: datum_right
+  - board: xiao_ble//zmk
+    shield: datum_dongle prospector_adapter

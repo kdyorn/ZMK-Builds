@@ -1,0 +1,17 @@
+if SHIELD_DATUM_LEFT || SHIELD_DATUM_RIGHT || SHIELD_DATUM_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "Datum"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_BLE
+    default y
+
+if SHIELD_DATUM_DONGLE
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+endif

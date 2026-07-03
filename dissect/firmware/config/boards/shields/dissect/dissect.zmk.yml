@@ -1,0 +1,13 @@
+file_format: "1"
+id: dissect
+name: Dissect
+type: shield
+url: https://github.com/kdyorn/zmk-config
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - dissect_left
+  - dissect_right
+  - dissect_dongle

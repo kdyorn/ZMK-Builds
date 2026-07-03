@@ -1,0 +1,12 @@
+#include "dissect.dtsi"
+
+/ {
+    chosen {
+        zmk,matrix_transform = &default_transform;
+        /delete-property/ zmk,kscan;
+    };
+};
+
+&kscan0 {
+    status = "disabled";
+};

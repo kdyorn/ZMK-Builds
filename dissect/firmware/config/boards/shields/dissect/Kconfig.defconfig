@@ -1,0 +1,17 @@
+if SHIELD_DISSECT_LEFT || SHIELD_DISSECT_RIGHT || SHIELD_DISSECT_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "Dissect"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_BLE
+    default y
+
+if SHIELD_DISSECT_DONGLE
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+endif
